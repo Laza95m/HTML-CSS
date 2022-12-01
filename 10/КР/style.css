@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: green;
+    height: 7vh; width: 100%;
+}
+
+img{
+    position: absolute;
+    height: 5vh; width: 3vw;
+    border: 0px;
+    border-radius: 40px;
+    top: 1%;
+}
+
+.navbar_text_left{
+    position: absolute;
+    left: 4%;
+    top: 2.5%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar_text_right{
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 1%;
+    color: white;
+    font-size: large;
+}
+
+.image{
+    background-image: url(/img/фото_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh; width: 100%;
+}
+
+.image_text{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10vh;
+    padding: 12%;
+}
+
+.background{
+    background-color: rgb(235, 235, 235);
+    height: 200vh;
+    /* width: 100%; */
+    padding: 3%;
+}
+
+.header{
+    color: green;
+    font-weight: bolder;
+    font-size: 5vh;
+    padding-bottom: 3%;
+}
+
+.text{
+    padding-bottom: 7%;
+}
+
+.background1{
+    background-color: rgb(95, 95, 95);
+    height: 30vh; width: 20vw;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.background1_yellow{
+    background-color: yellow;
+    height: 8vh; width: 4vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 10%; left: -5%;
+}
+
+.background1_ABCD{
+    background-color: rgb(153, 153, 153);
+    height: 6vh; width: 3vw;
+    border-radius: 40px;
+    position: relative;
+    top: 12%; left: 2%;
+}
+
+.text_ABCD{
+    text-align: center;
+    padding-top: 20%;
+    font-size: x-large;
+    position: relative;
+}
+
+.text_header1{
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+}
+
+.text1{
+    color: white;
+    padding: 11%;
+    position: relative;
+}
+
+.cup{
+    background-image: url(/img/Кубок.png);
+    height: 6vh; width: 3vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 80%; top: 15%;
+}
+
+.background2{
+    background-color: rgb(95, 95, 95);
+    height: 30vh; width: 20vw;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.eye{
+    background-image: url(/img/Глаз.png);
+    height: 6vh; width: 3vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 80%; top: 15%;
+}
+
+.background1_red{
+    background-color: red;
+    height: 8vh; width: 4vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 10%; left: -5%;
+}
+
+.background3{
+    background-color: rgb(95, 95, 95);
+    height: 30vh; width: 20vw;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.react{
+    background-image: url(/img/Реакция.png);
+    height: 6vh; width: 3vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 80%; top: 15%;
+}
+
+.background1_blue{
+    background-color: blue;
+    height: 8vh; width: 4vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 10%; left: -5%;
+}
+
+.background4{
+    background-color: rgb(95, 95, 95);
+    height: 30vh; width: 20vw;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.lamp{
+    background-image: url(/img/Лампочка.png);
+    height: 6vh; width: 3vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 80%; top: 15%;
+}
+
+.background1_purple{
+    background-color: purple;
+    height: 8vh; width: 4vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 10%; left: -5%;
+}
+
+.box1{
+    border: 1px rgb(179, 179, 179) solid;
+    width: 25vw; height: 30vh;
+    text-align: center;
+    display: inline-block;
+}
+
+.header2{
+    font-size: 10vh;
+    margin-bottom: -8%;
+    padding-top: 2%;
+}
+
+.text2{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.text_name{
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 3%;
+}
+
+.img_people{
+    background-image: url(/img/Лицо.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh; width: 5vw;
+    border-radius: 100px;
+    position: relative;
+    left: 39%; top: 5%;
+}
+
+.box2{
+    border: 1px rgb(179, 179, 179) solid;
+    width: 25vw; height: 30vh;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: -1%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.box3{
+    border: 1px rgb(179, 179, 179) solid;
+    width: 25vw; height: 30vh;
+    text-align: center;
+    display: inline-block;
+}

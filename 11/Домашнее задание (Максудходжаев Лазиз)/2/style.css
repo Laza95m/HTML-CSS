@@ -1,0 +1,207 @@
+.home{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 1%;
+    font-size: x-large;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-right: -0.2%;
+}
+
+.categories{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 1%;
+    font-size: x-large;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-right: -0.2%;
+}
+
+.man{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 7%;
+    font-size: x-large;
+    color: white;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    top: 101.5%;
+    left: -0.5%;
+}
+
+.woomen{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 7%;
+    font-size: x-large;
+    color: white;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    top: 180%;
+    left: -0.5%;
+}
+
+.kids{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 7%;
+    font-size: x-large;
+    color: white;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    top: 258.6%;
+    left: -0.5%;
+}
+
+.about{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 1%;
+    font-size: x-large;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-right: -0.3%;
+}
+
+.contacts{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    text-align: center;
+    padding-top: 1%;
+    font-size: x-large;
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.dress{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    padding-top: 8%;
+    font-size: x-large;
+    color: white;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    top: -2.5%;
+    left: 100.6%;
+}
+
+.pants{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    padding-top: 8%;
+    font-size: x-large;
+    color: white;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    top: 103%;
+    left: 100.6%;
+}
+
+.shoes{
+    background-color: green;
+    border: 1px green solid;
+    height: 5vh; width: 10vw;
+    padding-top: 8%;
+    font-size: x-large;
+    color: white;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    top: 208.6%;
+    left: 100.6%;
+}
+
+.categories:hover{
+    background-color: darkgreen;
+}
+
+.woomen:hover{
+    background-color: darkgreen;
+}
+
+.home:hover{
+    background-color: darkgreen;
+}
+
+.man:hover{
+    background-color: darkgreen;
+}
+
+.kids:hover{
+    background-color: darkgreen;
+}
+
+.about:hover{
+    background-color: darkgreen;
+}
+
+.contacts:hover{
+    background-color: darkgreen;
+}
+
+.dress:hover{
+    background-color: darkgreen;
+}
+
+.pants:hover{
+    background-color: darkgreen;
+}
+
+.shoes:hover{
+    background-color: darkgreen;
+}
+
+.categories:hover .man{
+    display: inline-block;
+}
+
+.categories:hover .woomen{
+    display: inline-block;
+}
+
+.categories:hover .kids{
+    display: inline-block;
+}
+
+.woomen:hover .dress{
+    display: inline-block;
+}
+
+.woomen:hover .pants{
+    display: inline-block;
+}
+
+.woomen:hover .shoes{
+    display: inline-block;
+}
+
+.text{
+    padding-top: 2%;
+    font-size: x-large;
+    width: 45vw;
+}

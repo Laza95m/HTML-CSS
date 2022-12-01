@@ -1,0 +1,37 @@
+$white: #FFFFFF;
+$light-black: #121212;
+$gray: #5c5c5c;
+$grad1: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+$grad2: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+@mixin breakpoint($point) {
+   @if $point==xl {
+      @media (max-width: 1200px) {
+         @content;
+      }
+   }
+
+   @else if $point==lg {
+      @media (max-width: 968px) {
+         @content;
+      }
+   }
+
+   @else if $point==md {
+      @media (max-width: 890px) {
+         @content;
+      }
+   }
+
+   @else if $point==sm {
+      @media (max-width: 520px) {
+         @content;
+      }
+   }
+
+   @else if $point==xs {
+      @media (max-width: 373px) {
+         @content;
+      }
+   }
+}

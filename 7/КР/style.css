@@ -1,0 +1,53 @@
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+th{
+    /* border: 1px solid black; */
+    height: 120px;
+    color: whitesmoke;
+}
+
+td{
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 50px;
+}
+
+.price{
+    font-size: xx-large;
+}
+
+.header1{
+    background-color: rgb(126, 126, 139);
+    border-radius: 10% 0 0 0%;
+}
+
+.header2{
+    background-color: rgb(84, 84, 112);
+}
+
+.header3{
+    background-color: rgb(77, 77, 122);
+}
+
+.header4{
+    background-color: rgb(44, 44, 110);
+}
+
+.header5{
+    background-color: rgb(13, 13, 87);
+    border-radius: 0 10% 0 0;
+}
+
+.menu_left{
+    text-align: unset;
+    padding-left: 3%;
+}
+
+button{
+    padding: 7% 20%;
+}

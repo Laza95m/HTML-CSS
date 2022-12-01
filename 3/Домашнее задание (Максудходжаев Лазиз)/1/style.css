@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+}
+.background{
+    background-color: rgb(255, 223, 228);
+    padding-bottom: 30%;
+}
+.header{
+    padding-top: 1%;
+    padding-left: 0.5%;
+    color: brown;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.text{
+    border-left: 0.1vh solid gray;
+    border-bottom: 0.1vh solid gray;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 72%;
+    padding: 0 0 0.5% 0.5%;
+    display: inline-block;
+}

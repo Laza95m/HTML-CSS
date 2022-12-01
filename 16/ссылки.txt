@@ -1,0 +1,5 @@
+https://sass-lang.com/
+
+https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties
+
+https://habr.com/ru/company/ruvds/blog/523370/

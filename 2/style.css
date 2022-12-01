@@ -1,0 +1,126 @@
+/* Нужно делать какие-то группы элементов */
+
+        /* 
+        Между различными группировками элементов есть иерархия. 
+        1. Айди
+        2. Классы
+        3. Теги 
+        */
+
+        /* .classname{} - объединение по классу */
+        /* .one{
+            color: #ff0000;
+            background-color: aquamarine;
+            border: 3px solid rgb(255, 196, 0);
+            border-radius: 10px;
+            text-align: center;
+        }
+        /* #id_name - Обращение по айди */
+        /*
+        #two{
+            font-size: xx-large;
+            font-weight: 100;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-align: end;
+            color: blue;
+        }
+        .text_decor{
+            background-color: aqua;
+            text-align: center;
+            text-decoration: overline red;
+            letter-spacing: 10px;
+            line-height: 50px;
+            text-indent: 20px;
+            white-space: normal;
+            word-spacing: 20px;
+        } */
+        /* *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            color: dimgray;
+            text-align: center;
+            background-color: gainsboro;
+        }
+        .info{
+            margin: 5px;
+            font-size: large;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid black;
+        }
+        #main_info{
+            margin: 15px;
+            font-size: x-large;
+            font-weight: bolder;
+            text-align: center;
+            height: 200px;
+            border: 2px solid red;
+        } */
+
+/* .first{
+    color: red;
+    text-decoration: overline silver;
+}
+.second{
+    font-weight: 600;
+    color: royalblue;
+}
+.first.second{
+    color: seagreen;
+}
+
+.parent{
+    color: steelblue;
+}
+.child{
+    color: violet;
+}
+.parent .child{
+    color: rgb(102, 102, 64);
+}
+.container{
+    text-align: center;
+}
+.one{
+    text-align: start;
+}
+.one~.two{
+    text-align: end;
+    color: red;
+}
+.check[title='GOODBYE']{
+    color: red;
+}
+.cont{
+    background-color: aqua
+}
+.nodecor{
+    background-color: green;
+} */
+
+/* .header{
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline silver;
+}
+
+.hobby{
+    text-align: center;
+}
+.hobbies{
+    margin: 0 auto;
+    width: 50vw;
+    border: 2px solid silver;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+.container{
+} */
+.card{
+    line-height: 22px;
+    width: 20px;
+    background-color: wheat;
+}

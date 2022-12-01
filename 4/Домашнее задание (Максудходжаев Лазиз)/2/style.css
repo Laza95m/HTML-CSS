@@ -1,0 +1,57 @@
+.header{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 2% 0% 1% 3%;
+}
+
+.background1{
+    background-color: rgba(100, 148, 237, 0.6);
+    margin-left: 3%;
+    margin-right: 70%;
+    padding-left: 1.5%;
+    color: black;
+}
+
+.background2{
+    background-color: rgba(100, 148, 237, 0.1);
+    margin-left: 3%;
+    margin-right: 70%;
+    padding-left: 1.5%;
+    color: black;
+}
+
+.background3{
+    background-color: rgba(100, 148, 237, 0.5);
+    margin-left: 3%;
+    margin-right: 70%;
+    padding-left: 1.5%;
+    color: black;
+}
+
+.unmarked{
+    list-style-type: none;
+    list-style-image: url(/icons/unchecked_16.png);
+    margin: 0%;
+}
+
+.marked{
+    list-style-type: none;
+    list-style-image: url(/icons/checked_16.png);
+    margin: 0%;
+}
+
+.text1{
+    padding: 2% 0% 2% 4%;
+}
+
+.text2{
+    padding: 2% 0% 2% 4%;
+    text-decoration: line-through;
+}
+
+.cross{
+    display: inline-block;
+    color: red;
+    padding-left: 4%;
+}

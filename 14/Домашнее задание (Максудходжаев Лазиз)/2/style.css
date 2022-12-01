@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto 25% auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-row-gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 8vh;
+    width: 4vw;
+}
+
+.name{
+    font-size: large;
+}
+
+.time {
+    color: gray;
+    font-size: small;
+}
+
+.item_1{
+    text-align: end;
+}
+
+.item_2{
+    padding-right: 1vw;
+}
+
+.item_3{
+    font-size: large;
+    background-color: pink;
+    padding: 2% 7%;
+    border-radius: 30px 30px 30px 0;
+}
+
+.item_4{
+    grid-column: 4;
+    grid-row: 2 / 3;
+    padding-left: 1vw;
+}
+
+.item_5{
+    grid-column: 5;
+    grid-row: 2 / 3;
+}
+
+.item_6{
+    grid-column: 3;
+    grid-row: 2 / 3;
+    font-size: large;
+    background-color: cornflowerblue;
+    padding: 2% 7%;
+    border-radius: 30px 30px 0 30px;
+}
+
+.item_7{
+    grid-column: 1;
+    grid-row: 3 / 4;
+    text-align: end;
+}
+
+.item_8{
+    grid-column: 2;
+    grid-row: 3 / 4;
+}
+
+.item_9{
+    grid-column: 3;
+    grid-row: 3 / 4;
+    font-size: large;
+    background-color: pink;
+    padding: 2% 7%;
+    border-radius: 30px 30px 30px 0;
+}
+
+.item_10{
+    grid-column: 3;
+    grid-row: 4 / 5;
+    font-size: large;
+    background-color: cornflowerblue;
+    padding: 2% 7%;
+    border-radius: 30px 30px 0 30px;
+}
+
+.item_11{
+    grid-column: 4;
+    grid-row: 4 / 5;
+    padding-left: 1vw;
+}
+
+.item_12{
+    grid-column: 5;
+    grid-row: 4 / 5;
+}
+
+.item_13{
+    grid-column: 1;
+    grid-row: 5 / 6;
+    text-align: end;
+}
+
+.item_14{
+    grid-column: 2;
+    grid-row: 5 / 6;
+}
+
+.item_15{
+    grid-column: 3;
+    grid-row: 5 / 6;
+    font-size: large;
+    background-color: pink;
+    padding: 2% 7%;
+    border-radius: 30px 30px 30px 0;
+}
+
+.item_16{
+    grid-column: 3;
+    grid-row: 6 / 7;
+    font-size: large;
+    background-color: cornflowerblue;
+    padding: 2% 7%;
+    border-radius: 30px 30px 0 30px;
+}
+
+.item_17{
+    grid-column: 4;
+    grid-row: 6 / 7;
+    padding-left: 1vw;
+}
+
+.item_18{
+    grid-column: 5;
+    grid-row: 6 / 7;
+}

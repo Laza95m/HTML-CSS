@@ -1,0 +1,30 @@
+.list {
+    /* list-style-type: decimal-leading-zero;     */
+    list-style-position: inside;
+}
+
+ol.list {
+    /* list-style-type: decimal-leading-zero */
+    /* list-style-type: armenian; */
+    /* list-style-type: georgian; */
+    /* list-style-type: lower-greek; */
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url(icon.png);
+}
+
+.no-list {
+    display: list-item;
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+.multi-list>li  {
+    width: 200px;
+    background-color: beige;
+    line-height: 50px;
+}
+.multi-list ul>li {
+    background-color: orange;
+}
+

@@ -1,0 +1,45 @@
+.block_left{
+    border: 5px darkmagenta solid;
+    background-color: magenta;
+    height: 25vh;
+    width: 25vw;
+}
+
+.block_right{
+    border: 5px darkmagenta solid;
+    background-color: magenta;
+    height: 25vh;
+    width: 25vw;
+}
+
+h1{
+    top: 30%;
+    z-index: -1;
+    position: absolute;
+}
+
+.open_block{
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.block_left{
+    transform-origin: left;
+    transition: 0.1s;
+}
+
+.block_right{
+    transform-origin: right;
+    transition: 0.1s;
+}
+
+.open_block:hover .block_left{
+    transform: rotateY(50deg);
+    transition: 1s;
+}
+
+.open_block:hover .block_right{
+    transform: rotateY(-50deg);
+    transition: 1s;
+}

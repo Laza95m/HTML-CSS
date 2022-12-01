@@ -1,0 +1,22 @@
+Документация: (англ)
+
+https://getbootstrap.com/
+
+https://tailwindcss.com/
+
+_____________________________________
+
+
+Документация: (русс)
+
+https://bootstrap5.ru/
+
+https://tailwindcss.ru/
+_____________________________________
+
+
+Руководства к использованию:
+
+https://webref.ru/layout/bootstrap4
+
+https://webformyself.com/v-dobryj-put-tailwind-css/

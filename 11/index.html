@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar div:hover{
+            background-color: rgb(63, 117, 63);
+        }
+        .category_content div{
+            font-size:medium;
+        }
+        .category_content:hover{
+            background-color: rgb(99, 185, 99) !important;
+        }
+        .category:hover .category_content{
+            display: block;
+        }
+        .category_content{
+            font-size: 0;
+            display: none;
+            position: relative;
+            background-color: rgb(99, 185, 99);
+            top: 12%;
+        }
+        .category_content div{
+            border: 0 !important;
+            width: 100% !important;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: rgb(99, 185, 99);
+            width: 100%;
+            height: 10%;
+            position: fixed;
+            font-size: 0;
+        }
+        .navbar :not(.category_content){
+            display: inline-block;
+            color: white;
+            text-align: center;
+            height: 100%;
+            font-size: large;
+            line-height: 260%;
+            vertical-align:middle;
+            width: 24.9%;
+        }
+        .navbar :not(div:last-child){
+            border-right: rgb(28, 75, 28) 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>Home</div>
+        <div class="category">
+            Categories
+            <div class="category_content">
+                <div>Men</div><br>
+                <div>Women</div>
+                <div>Kids</div>
+            </div>
+        </div>
+        <div>About</div>
+        <div>Contacts</div>
+    </div>
+</body>
+
+</html>

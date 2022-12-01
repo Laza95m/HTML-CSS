@@ -1,0 +1,82 @@
+*{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+html{
+    width: 1000px;
+}
+
+header{
+    background-color: DeepPink ;
+    color: antiquewhite;
+    padding: 1% 1% 1% 2%;
+    margin-bottom: 0.5%;
+}
+
+menu{
+    background-color: PaleVioletRed ;
+    color: antiquewhite;
+    padding: 0.5% 1% 0.5% 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.aside1{
+    background-color: hotpink;
+    color: antiquewhite;
+    padding: 25% 42% 25% 40%;
+    margin-bottom: 10%;
+    width: 100px;
+}
+
+.aside2{
+    background-color: hotpink;
+    color: antiquewhite;
+    padding: 25% 62% 150% 40%;
+    width: 80px;
+}
+
+.aside_left{
+    float: left;
+}
+
+main{
+    background-color: hotpink;
+    color: antiquewhite;
+    padding: 2% 51% 4% 3%;
+    margin-left: 9%;
+    float: left;
+}
+
+.section1{
+    background-color: pink;
+    color: antiquewhite;
+    padding: 10% 295% 70% 47%;
+    margin-bottom: 7%;
+    margin-top: 10%;
+    width: 100px;
+}
+
+.section2{
+    background-color: pink;
+    color: antiquewhite;
+    padding: 10% 295% 70% 47%;
+    width: 100px;
+}
+
+.aside3{
+    background-color: hotpink;
+    color: antiquewhite;
+    padding: 5% 5% 5% 5%;
+    float: right;
+    width: 20px;
+}
+
+footer{
+    background-color: PaleVioletRed ;
+    color: antiquewhite;
+    padding: 0.5% 1% 0.5% 2%;
+    margin-top: 39%;
+    clear: both;
+}

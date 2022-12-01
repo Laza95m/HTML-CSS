@@ -1,0 +1,142 @@
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: blue;
+    width: 70%;
+    height: 10vh;
+    color: white;
+}
+
+.pad_l{
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 93vw;
+}
+
+.h_text1{
+    font-size: xx-large;
+    padding-left: 5%;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.h_text2{
+    display: inline-block;
+    padding-left: 50%;
+}
+
+.background_gray{
+    background-color: rgb(235, 235, 235);
+    width: 69.4vw;
+    height: 85vh;
+}
+
+.box{
+    padding: 0.5% 0 0.5% 1%;
+}
+
+select{
+    color: gray;
+    padding: 0.5% 1%;
+}
+
+.Search{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: blue;
+    padding: 0.5% 3%;
+}
+
+.menu_left{
+    float: left;
+    border: 1px gray solid;
+    border-radius: 5px;
+    width: 13vw;
+    padding: 0.5% 0 2% 2%;
+    background-color: white;
+}
+
+.header_left{
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+h4{
+    color: blue;
+}
+
+.min{
+    display: inline-block;
+}
+
+.max{
+    display: inline-block;
+    padding-left: 27%;
+    margin-bottom: 2%;
+}
+
+.number{
+    height: 3vh; width: 3vw;
+    padding-left: 4%;
+    margin-right: 2%;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.main_menu{
+    float: left ;
+    margin-left: 1%;
+    border: 1px gray solid;
+    border-radius: 5px;
+    width: 41vw;
+    height: 68vh;
+    background-color: white;
+}
+
+.header_main{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    height: 52vh;
+}
+
+th{
+    font-size: small;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    height: 3vh; width: 6.7vw;
+    color: blue;
+    background-color: rgb(235, 235, 235);
+}
+
+td{
+    border-bottom: 1px gray solid;
+    height: 6vh;
+}
+
+.gray_text{
+    color: gray;
+    font-size: x-small;
+    margin-top: 5%;
+}
+
+button{
+    border: 1px blue solid;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 7% 25%;
+    margin-bottom: 3%;
+}
+
+.blue_text{
+    color: cornflowerblue ;
+}

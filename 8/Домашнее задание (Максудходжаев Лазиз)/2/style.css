@@ -1,0 +1,202 @@
+form{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: sans-serif;
+}
+
+/* Inputs */
+ .input_right:invalid{
+    border-color: red;
+    background-image: url(/img/Крест.png);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+ }
+
+ .input_right:valid{
+    border-color: green;
+    background-image: url(/img/Галочка.png);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+ }
+
+ .input_center:valid{
+    border-color: green;
+    background-image: url(/img/Галочка.png);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+ }
+
+ .input_center:invalid{
+    border-color: red;
+    background-image: url(/img/Крест.png);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+ }
+
+ .input_left{
+   padding: 0.5% 1%;
+   border-radius: 3px;
+   border: 1px gray solid;
+   content: "\2713";
+ }
+
+ .input_center{
+   padding: 0.5% 1%;
+   border-radius: 3px;
+   border: 1px gray solid;
+ }
+
+ .input_right{
+    padding: 0.5% 1%;
+   border-radius: 3px;
+    border: 1px gray solid;
+}
+
+/* check boxes */
+ input[type="checkbox"] {
+    width: 0; height: 0;
+    visibility: hidden;
+    position: absolute;
+ }
+
+ .checkbox{
+   display: inline-block;
+   width: 3vw; height: 2vh;
+    background-color: white;
+    border: 1px green solid;
+    border-radius: 5px;
+   position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+
+ .checkbox::after{
+   content: "";
+   width: 1.5vw; height: 2vh;
+   background-color: green;
+   position: absolute;
+   border-radius: 5px;
+   left: 1%;
+   transition: 0.5s;
+ }
+
+ input:checked + .checkbox::after{
+   left: calc(100% - 1px);
+   transform:translateX(-100%);
+   background-color: red;
+ }
+
+ input:checked + .checkbox{
+   border-color: red;
+}
+
+/* Radio buttons */
+ input[type="radio"] {
+   height: 0; width: 0;
+   visibility: hidden;
+  position: absolute ;
+ }
+ 
+ .radio{
+   display: inline-block;
+   height: 2vh; width: 1vw;
+   border: 1px green solid;
+   border-radius: 15px;
+   position: relative;
+   cursor: pointer;
+ }
+
+ .radio::after{
+  content: "";
+   display: inline-block;
+   height: 1.6vh; width: 0.8vw;
+   border-radius: 15px;
+   position: relative;
+   left: 10%; top: 9%;
+ }
+
+ input:checked + .radio::after{
+   background-color: green;
+}
+
+/* Buttons */
+ .active{
+   background-color:rgb(0, 170, 0);
+   border: 1px rgb(0, 170, 0) solid;
+   border-radius: 5px;
+   height: 4vh; width: 5vw;
+   color: white;
+   font-weight: bold;
+ }
+
+ .hover_one{
+    background-color:rgb(0, 170, 0);
+    border: 1px rgb(0, 170, 0) solid;
+    border-radius: 5px;
+    height: 4vh; width: 5vw;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5%;
+ }
+
+ .hover_one:hover{
+    background-color:darkgreen;
+    border: 1px darkgreen solid;
+ }
+
+ .danger{
+    background-color:red;
+    border: 1px red solid;
+    border-radius: 5px;
+    height: 4vh; width: 5vw;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5%;
+ }
+
+ .hover_two{
+    background-color:red;
+    border: 1px red solid;
+    border-radius: 5px;
+    height: 4vh; width: 5vw;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5%;
+ }
+
+ .hover_two:hover{
+    background-color:darkred;
+    border: 1px darkred solid;
+ }
+
+ .disabled{
+    background-color:gray;
+    border: 1px gray solid;
+    border-radius: 5px;
+    height: 4vh; width: 5vw;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5%;
+ }
+ .plus{
+     width: 2vw; height: 4vh;
+     position: absolute;
+     left: 34%;
+ }
+
+ .minus{
+    width: 2vw; height: 4vh;
+    position: absolute;
+    left: 37%;
+}
+
+/* Textarea */
+textarea{
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-top: 1%;
+}

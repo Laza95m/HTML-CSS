@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: blue;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.text1{
+    padding-top: 2%;
+    padding-left: 10%;
+    display: inline-block;
+}
+
+.text2{
+    padding-left: 30%;
+    display: inline-block;
+}
+
+.text3{
+    padding-left: 40%;
+    display: inline-block;
+}
+
+.container1{
+    background-color: red;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.container2{
+    background-color: purple;
+    height: 100vh;
+}
+
+.container3{
+    background-color: saddlebrown;
+    height: 100vh;
+}
+
+.photo1{
+    position: absolute;
+    left: 1%;
+    top: 15%;
+}
+
+.photo2{
+    padding-top: 2%;
+    padding-left: 2%;
+    position: absolute;
+    left: 20%;
+}
+
+.photo3{
+    padding-top: 2%;
+    padding-left: 2%;
+    position: absolute;
+    left: 30%;
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+.music1{
+    padding-top: 5%;
+}

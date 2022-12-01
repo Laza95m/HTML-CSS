@@ -1,0 +1,45 @@
+/* .border{
+    border: 5px darkorange solid;
+    height: 10vh; width: 50vw;
+    position: relative;
+}
+
+.box{
+    background-color: darkorange;
+    height: 10vh; width: 5vw;
+    animation: box 5s 0.5s infinite;
+    position: absolute;
+}
+
+@keyframes box{
+    from {left: 0;}
+    50% {left: 90%;}
+    to {left: 0;}
+} */
+
+div{
+    background-image: url(/img/favorites.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6vh; width: 3vw;
+    position: absolute;
+    top: 25%; left: 25%;
+    transition: 0.1s;
+}
+
+div:hover{
+    background-image: url(/img/favorites.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh; width: 15vw;
+    position: absolute;
+    top: 14%; left: 19%;
+    transition: 1s;
+}
+
+/* @keyframes heart{
+    from {height: 6vh; width: 3vw;}
+    to {height: 30vh; width: 15vw;}
+} */

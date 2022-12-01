@@ -1,0 +1,73 @@
+.background1{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 2%;
+}
+
+.background2{
+    background-color: gray;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 5%;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.name_pas{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 3% 24%;
+}
+
+.Login{
+    border: green solid;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 3% 40.5%;
+    margin-bottom: 10%;
+}
+
+.forgot{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 40%;
+}
+
+.text{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 3%;
+    padding-left: 17%;   
+}
+
+.facebook{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.twitter{
+    height: 5vh;
+    width: 5vw;
+    margin-left: 2%;
+}

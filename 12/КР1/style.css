@@ -1,0 +1,17 @@
+div{
+    background-color: darkred;
+    border: 5px black solid;
+    height: 6vh; width: 3vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 0%; left: 0%;
+    animation: changePosition 7s 0.5s infinite;
+}
+
+@keyframes changePosition{
+    from {top: 0%; height: 6vh; width: 3vw;}
+    25% {top: 95%; left: 25%; height: 1vh; width: 3vw;}
+    50% {top: 0%; left: 50%; height: 6vh; width: 3vw;}
+    75% {top: 95%; left: 25%; height: 1vh; width: 3vw;}
+    to {top: 0%; height: 6vh; width: 3vw;}
+}

@@ -1,0 +1,80 @@
+table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+tr{
+    height: 7vh;
+}
+
+th{
+    border: 1px rgb(143, 119, 87) dashed;
+}
+
+td{
+    border: 1px rgb(143, 119, 87) dashed;
+}
+
+.№{
+    width: 4vw;
+}
+
+.name_product{
+    width: 10vw;
+}
+
+.unit_m{
+    width: 5vw;
+}
+
+.quantity{
+    width: 6vw;
+}
+
+.price_per_one{
+    width: 10vw;
+}
+
+.price{
+    width: 8vw;
+}
+
+.background{
+    background-color: rgb(255, 201, 102);
+    border-left: 2px rgb(143, 119, 87) solid;
+    border-top: 2px rgb(143, 119, 87) solid;
+    border-right: 2px rgb(143, 119, 87) solid;
+    text-align: center;
+}
+
+.text{
+    padding-left: 1%;
+}
+
+.№1{
+    padding-left: 1%;
+    border-left: 2px rgb(143, 119, 87) solid;
+}
+
+.№2{
+    padding-left: 1%;
+    border-left: 2px rgb(143, 119, 87) solid;
+}
+
+.total{
+    text-align: right;
+    border-left: 2px rgb(143, 119, 87) solid;
+    border-bottom: 2px rgb(143, 119, 87) solid;
+    padding-right: 1%;
+}
+
+.total_number{
+    padding-left: 1%;
+    border-bottom: 2px rgb(143, 119, 87) solid;
+    border-right: 2px rgb(143, 119, 87) solid;
+}
+
+.number_cost{
+    padding-left: 1%;
+    border-right: 2px rgb(143, 119, 87) solid;
+}

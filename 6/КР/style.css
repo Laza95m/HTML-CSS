@@ -1,0 +1,41 @@
+.background1{
+    background-size: cover;
+    position: absolute;
+}
+
+.background2{
+    background-size: cover;
+    position: absolute;
+    left: 2.5%;
+    top: 5.5%;
+}
+
+.background3{
+    background-size: cover;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+/* .header{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    left: 6%;
+    top: 12%;
+} */
+b{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.text{
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    position: absolute;
+    left: 6%;
+    top: 17%;
+}

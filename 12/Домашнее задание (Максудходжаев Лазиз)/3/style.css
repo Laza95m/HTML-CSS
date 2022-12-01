@@ -1,0 +1,51 @@
+body{
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  width: 50%;
+  transition: 0.3s;
+ }
+
+ .container:hover{
+  filter: brightness(70%);
+  background-color: rgb(173, 173, 173);
+  transition: 0.3s;
+ }
+
+ .container:hover .img{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.block1{
+  border: 1px black solid;
+  height: 25vh;
+  width: 25vw;
+  transition: 0.3s;
+ }
+
+ .text{
+  text-align: center;
+  position: relative;
+  top: 45%;
+  font-weight: bold;
+}
+
+.block2{
+  border: 1px black solid;
+  height: 25vh;
+  width: 25vw;
+  overflow: hidden;
+ }
+
+ .img{
+  background-image: url(/img/Foto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 25vw;
+  transition: 1s;
+ }

@@ -1,0 +1,94 @@
+table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+
+th{
+    height: 12vh;
+    color: white;
+ }
+
+ b{
+    display: block;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    font-size: x-large;
+ }
+
+ th:nth-child(1) {
+    width: 12vw;
+    background-color: rgb(108, 159, 255);
+    border-radius: 15px 0 0 0;
+ }
+
+ th:nth-child(2) {
+    width: 7vw;
+    background-color: rgb(98, 145, 231);
+ }
+
+ th:nth-child(3) {
+    width: 7vw;
+    background-color: rgb(75, 110, 177);
+ }
+
+ th:nth-child(4) {
+    width: 7vw;
+    background-color: rgb(23, 65, 143);
+ }
+
+ th:nth-child(5) {
+    width: 7vw;
+    background-color: rgb(9, 38, 92);
+    border-radius: 0 15px 0 0;
+}
+
+
+td{
+    text-align: center;
+    height: 5vh;
+    background-color: rgb(160, 160, 160);
+ }
+
+ td:nth-child(1) {
+    text-align: left;
+    padding-left: 3%;
+ }
+
+ button{
+    border: 1px gray solid;
+    height: 3vh;
+    width: 5vw;
+ }
+
+ button:hover{
+    background-color: rgb(211, 211, 211);
+ }
+
+ button:active{
+    background-color: rgb(179, 179, 179);
+ }
+
+ tr:last-child{
+    height: 6vh;
+ }
+
+ tr:nth-of-type(odd) td:nth-child(odd) {
+    background-color: rgb(212, 212, 212);
+ }
+
+ tr:nth-of-type(even) td:nth-child(even) {
+    background-color: rgb(212, 212, 212);
+ }
+
+ tr:nth-of-type(odd) td:nth-child(even) {
+    background-color: white;
+ }
+
+ tr:last-child td:nth-child(1) {
+    border-radius: 0 0 0 15px;
+ }
+
+ tr:last-child td:nth-child(5) {
+    border-radius: 0 0 15px 0;
+ }

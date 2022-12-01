@@ -1,0 +1,14 @@
+body{
+    background-image: url(/img/Fon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 70% 80%;
+    font-family: sans-serif;
+}
+
+.background{
+    background-image: url(/img/Fon.jpg);
+    height: 65vh; width: 55vw;
+    position: fixed;
+    resize: none;
+}

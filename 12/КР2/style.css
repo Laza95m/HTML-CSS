@@ -1,0 +1,18 @@
+.border{
+    border: 5px darkorange solid;
+    height: 10vh; width: 50vw;
+    position: relative;
+}
+
+.box{
+    background-color: darkorange;
+    height: 10vh; width: 5vw;
+    animation: box 5s 0.5s infinite;
+    position: absolute;
+}
+
+@keyframes box{
+    from {left: 0;}
+    50% {left: 90%;}
+    to {left: 0;}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Таблицы</title>
+</head>
+<body>
+    <!--  
+    <table  border="1" 
+            cellspacing="0"
+            cellpadding="5"
+            width="500" 
+            height="300"
+            >
+
+    <th align="right left center" 
+        valign="bottom top middle">
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Товар</th>
+                <th>Цена</th>
+            </tr>  
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Монитор</td>
+                <td rowspan="2">60 000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Принтер</td>  
+            </tr>
+        </tbody>   
+        
+        <tfoot>
+            <tr>
+                <td colspan="2">Итого</td>
+                <td>85 000</td>                
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

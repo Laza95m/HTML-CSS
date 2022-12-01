@@ -1,0 +1,82 @@
+.background{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    margin-right: 50%;
+    padding-top: 2%;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0%;
+    display: inline-block;
+}
+
+li:hover{
+    text-decoration: 1px aliceblue underline;
+}
+
+.menu1{
+    margin-left: 10%;
+}
+
+.menu2{
+    margin-left: 20%;
+}
+
+.facebook{
+    display: inline-block;
+    background-image: url(/img/fb_gray.png);
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+.instagram{
+    display: inline-block;
+    background-image: url(/img/insta_gray.png);
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.youtube{
+    display: inline-block;
+    background-image: url(/img/youtube_gray.png);
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.facebook:hover{
+    background-image: url(/img/fb.png);
+}
+
+.instagram:hover{
+    background-image: url(/img/insta.png);
+}
+
+.youtube:hover{
+    background-image: url(/img/youtube.png);
+}
+
+.line{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    color: black;
+}
+
+.bottom{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: x-small;
+}

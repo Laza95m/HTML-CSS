@@ -1,0 +1,36 @@
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+    /* padding-bottom: 0.1%; */
+}
+#one{
+    background-color: rgb(241, 241, 241);
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    margin-right: 58%;
+    font-family: sans-serif;
+    padding-bottom: 0.1%;
+}
+.one{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(59, 46, 139);
+    margin: 0%;
+    padding-left: 30%;
+}
+.two{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(161, 154, 206);
+    line-height: 200%;
+}
+.three{
+    line-height: 150%;
+}
+.four{
+    font-size: small;
+    font-style: italic;
+}
+.five{
+    font-size: medium;
+}

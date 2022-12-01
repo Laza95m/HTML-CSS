@@ -1,0 +1,46 @@
+.background1{
+    background-image: url(/КР2/img/Темный\ фон.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 60%; width: 60%;
+}
+
+.background2{
+    background-color: rgba(251, 255, 0, 0.5);
+    background-size: cover;
+    position: absolute;
+    height: 60%; width: 75%;
+    left: 10%; top: 15%;
+}
+
+.photo1{
+    background-image: url(/КР2/img/кошка1.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 15vh; width: 6vw;
+    left: 5%; top: 30%;
+}
+
+.photo2{
+    background-image: url(/КР2/img/кошка2.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 15vh; width: 9vw;
+    left: 20%; top: 30%;
+}
+
+.photo3{
+    background-image: url(/КР2/img/кошка3.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 15vh; width: 11vw;
+    left: 42%; top: 30%;
+}
+
+.photo4{
+    background-image: url(/КР2/img/кошка4.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 15vh; width: 13vw;
+    left: 69%; top: 30%;
+}

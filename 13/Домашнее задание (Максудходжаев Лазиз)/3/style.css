@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+
+}
+
+
+/* Navbar */
+.navbar{
+    background-color: rgb(0, 104, 104);
+    color: white;
+    font-size: large;
+    list-style-type: none;
+    height: 4vh;
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 2%;
+    position: fixed;
+}
+
+
+/* Boards */
+.flex{
+    background-color: rgb(0, 175, 175);
+    height: 92vh;
+    width: 130%;
+    padding-top: 3%;
+    display: flex;
+    overflow-x: auto;
+}
+
+ul{
+    margin: 1% 0 1% 1%;
+    padding: 2% 1%;
+    border-radius: 10px;
+    background-color: rgb(185, 185, 185);
+    width: 20vw;
+    height: 50vh;
+}
+
+li{
+    background-color: rgb(238, 238, 238);
+    list-style-type: none;
+    padding: 4% 3%;
+    margin: 3% 0;
+    border-radius: 10px;
+}
+
+p{
+    padding-right: 20%;
+    line-height: 150%;
+}
+
+img{
+    width: 0.8vw;
+}
+
+li div{
+    display: inline-block;
+}
+
+ul:nth-of-type(2) {
+    overflow-y: auto;
+}
+
+
+/* Board_one */
+ul:nth-of-type(1) li:nth-of-type(1) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(1) img:nth-of-type(4) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(1) img:nth-of-type(5) {
+    position: relative;
+    left: 35%;
+    width: 2vw;
+}
+
+ul:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(4) {
+    position: relative;
+    left: 49%;
+    width: 2vw;
+}
+
+ul:nth-of-type(1) li:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(3) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(1) li:nth-of-type(3) img:nth-of-type(4) {
+    position: relative;
+    left: 53%;
+    width: 2vw;
+}
+
+
+/* Board_two */
+
+ul:nth-of-type(2) li:nth-of-type(1) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(1) img:nth-of-type(4) {
+    position: relative;
+    left: 49%;
+    width: 2vw;
+}
+
+ul:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(4) {
+    position: relative;
+    left: 50%;
+    width: 2vw;
+}
+
+ul:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(4) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(5) {
+    position: relative;
+    left: 35%;
+    width: 2vw;
+}
+
+ul:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(4) {
+    position: relative;
+    left: 49%;
+    width: 2vw;
+}
+
+
+/* Board_three */
+ul:nth-of-type(3) li:nth-of-type(1) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(3) li:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(3) li:nth-of-type(1) img:nth-of-type(4) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(3) li:nth-of-type(1) img:nth-of-type(5) {
+    position: relative;
+    left: 35%;
+    width: 2vw;
+}
+
+ul:nth-of-type(3) li:nth-of-type(2) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(3) li:nth-of-type(2) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+
+ ul:nth-of-type(3) li:nth-of-type(2) img:nth-of-type(4) {
+    position: relative;
+    left: 50%;
+    width: 2vw;
+}
+
+ul:nth-of-type(3) li:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(3) li:nth-of-type(3) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(3) li:nth-of-type(3) img:nth-of-type(4) {
+    position: relative;
+    left: 53%;
+    width: 2vw;
+}
+
+
+/* Board_four */
+ul:nth-of-type(4) li:nth-of-type(1) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(1) img:nth-of-type(4) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(1) img:nth-of-type(5) {
+    position: relative;
+    left: 35%;
+    width: 2vw;
+}
+
+ul:nth-of-type(4) li:nth-of-type(2) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(2) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(2) img:nth-of-type(4) {
+    position: relative;
+    left: 49%;
+    width: 2vw;
+}
+
+ul:nth-of-type(4) li:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(3) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(4) li:nth-of-type(3) img:nth-of-type(4) {
+    position: relative;
+    left: 53%;
+    width: 2vw;
+}
+
+
+/* Board_five */
+ul:nth-of-type(5) li:nth-of-type(1) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(1) img:nth-of-type(4) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(1) img:nth-of-type(5) {
+    position: relative;
+    left: 35%;
+    width: 2vw;
+}
+
+ul:nth-of-type(5) li:nth-of-type(2) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(2) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(2) img:nth-of-type(4) {
+    position: relative;
+    left: 49%;
+    width: 2vw;
+}
+
+ul:nth-of-type(5) li:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(3) img:nth-of-type(3) {
+    margin-left: 5%;
+ }
+
+ ul:nth-of-type(5) li:nth-of-type(3) img:nth-of-type(4) {
+    position: relative;
+    left: 53%;
+    width: 2vw;
+}

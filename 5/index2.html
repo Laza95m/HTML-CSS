@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        div{
+            display: inline-block;
+            height: 100px;
+            width: 100%;
+        }
+        .navbar{
+            position: fixed;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: purple;
+        }
+        .container2{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(94, 175, 77);
+        }
+        .container3{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(218, 180, 57);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar" style="background-color: red; text-align: center;">
+        <div><a href="#footer"><h3>Item1</h3></a></div>
+    </div>
+    <div class="container">Div1</div>
+    <div class="container2">Div2</div>
+    <div class="container3" id="footer">Div3</div>
+</body>
+</html>
